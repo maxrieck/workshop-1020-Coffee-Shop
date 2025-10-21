@@ -7,7 +7,7 @@ function CoffeeOrder ({order}) {
 
             <ul>
                 {order.map((item, index) => (
-                    <li key={index}>{item.newDrink} - {item.shots}</li>
+                    <li key={index}>{item.name} | {item.newDrink} - {item.shots} - {item.addOn}</li>
                 ))}
             </ul>
 
